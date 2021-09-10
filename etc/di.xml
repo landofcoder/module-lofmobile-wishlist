@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Lofmobile\Wishlist\Api\WishlistRepositoryInterface" type="Lofmobile\Wishlist\Model\ResourceModel\WishlistRepository"/>
+    <preference for="Lofmobile\Wishlist\Api\Data\BuyRequestInterface" type="Lofmobile\Wishlist\Model\BuyRequest"/>
+    <preference for="Lofmobile\Wishlist\Api\Data\WishlistInterface" type="Lofmobile\Wishlist\Model\Wishlist"/>
+    <preference for="Lofmobile\Wishlist\Api\Data\ItemInterface" type="Lofmobile\Wishlist\Model\Item"/>
+    <preference for="Lofmobile\Wishlist\Model\WishlistProviderInterface" type="Lofmobile\Wishlist\Model\WishlistProvider"/>
+    <preference for="Lofmobile\Wishlist\Api\WishlistManagementInterface" type="Lofmobile\Wishlist\Model\WishlistManagement"/>
+    <preference for="Lofmobile\Wishlist\Api\Data\MessageBagInterface" type="Lofmobile\Wishlist\Model\MessageBagRepository"/>
+</config>
